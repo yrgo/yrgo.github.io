@@ -2,6 +2,9 @@
 
 The GitHub Pages website for Yrgo developers. The site is built using GitHub Pages. Feel free to contribute!
 
+- [Colors](https://yrgo.github.io/colors)
+- [Take a break](https://yrgo.github.io/break)
+
 ## API
 
 Dummy API endpoints used for learning about fetching external resources.
