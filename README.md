@@ -1,6 +1,6 @@
 # Yrgo
 
-Yrgo's GitHub Pages website. The site is built using GitHub Pages. Feel free to contribute!
+The GitHub Pages website for Yrgo developers. The site is built using GitHub Pages. Feel free to contribute!
 
 ## API
 
