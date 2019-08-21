@@ -18,7 +18,7 @@ h1 {
 }
 
 body {
-  animation: break 1s infinite;
+  animation: break 2s infinite alternate;
   display: flex;
   align-items: center;
   justify-content: center;
