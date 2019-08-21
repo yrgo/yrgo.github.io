@@ -22,7 +22,7 @@ div {
   color: #fff;
   font-family: menlo;
   cursor: pointer;
-
+  border-radius: 9999px;
   transition: transform 100ms ease;
 }
 
