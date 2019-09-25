@@ -2,9 +2,4 @@
 
 # Allow crawling of all content
 User-agent: *
-Disallow: /api/
-Disallow: /break/
-Disallow: /colors/
-Disallow: /portfolio/
-Disallow: /projects/
-Disallow: /quiz/
+Disallow: /
