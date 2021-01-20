@@ -25,7 +25,3 @@ Hosted portfolio projects by students in the the web developer program.
 ## Deployment
 
 Published with [GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch) from the root directory on the `master` branch.
-
-## License
-
-[Copyright](LICENSE) © [Yrgo](https://yrgo.se/)
