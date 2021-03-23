@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'AvantGardeMdITC';
+  src: url('AvantGardeMdITC-Bold.78d21105.woff2') format('woff2'),
+    url('AvantGardeMdITC-Bold.0ea4cc0a.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.text-container h1 {
+  font-size: 48px;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.text-container h2 {
+  font-size: 23px;
+  line-height: 25px;
+  margin-bottom: 42px;
+}
+
+.text-container .text {
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  margin-bottom: 30px;
+}
+
+.text-container .date {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.VIP h3 {
+  font-size: 42px;
+}
+
+.VIP p {
+  font-size: 16px;
+  margin-left: 20px;
+  line-height: 21px;
+}
+
+.program-text h2 {
+  font-size: 52px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.program-text ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.program-text ul li {
+  margin: 2rem 0;
+}
+
+.menu h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+.menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  list-style: none;
+  font-size: 23px;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+
+.menu p {
+  font-size: 20px;
+  margin: 3rem 0 3rem 0;
+  line-height: 21px;
+}
+footer div h3 {
+  font-size: 20px;
+  margin-bottom: 13px;
+}
+
+footer a,
+footer p {
+  line-height: 22px;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--color-red);
+}
+
+/*# sourceMappingURL=typography.5ace4714.css.map */

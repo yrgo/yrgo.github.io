@@ -1,0 +1,212 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("/portfolio/popcatclicker/public/fonts/Poppins-Bold.woff2")
+      format("woff2"),
+    url("/portfolio/popcatclicker/public/fonts/Poppins-Bold.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  touch-action: manipulation;
+  -ms-touch-action: manipulation;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #0f0f0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* CSS if something is viewable or not */
+.revealed {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+h1,
+h2,
+button,
+span {
+  color: #e0e0e0;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  animation: fadeIn 1.5s ease forwards;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 0;
+  animation: fadeIn 1.5s ease forwards;
+}
+
+/* Emoji hand */
+.wave {
+  font-size: 3rem;
+  animation: wave 2.5s infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  animation: shaky 1.2s ease infinite;
+}
+
+button.accept:hover {
+  color: limegreen;
+}
+
+button.decline:hover {
+  color: firebrick;
+}
+
+button.party:hover,
+button.return:hover {
+  color: hotpink;
+}
+
+/* Animation class to add to toggle with JavaScript */
+.animation {
+  animation: fadeIn 1.5s ease forwards;
+}
+
+/* Text animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(400px) scale(0.2);
+  }
+  100% {
+    transform: translateY() scale(1);
+  }
+}
+
+/* Button animation */
+@keyframes shaky {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -1px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(0px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(2px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(2px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  cursor: pointer;
+  animation: fadeIn 2s ease forwards;
+}
+
+/* Media query for desktop */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 4.6rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .wave {
+    font-size: 4.6rem;
+  }
+}
+
+/* Media query for mobile buttons */
+@media screen and (max-width: 414px) {
+  button.accept {
+    color: limegreen;
+  }
+  button.decline {
+    color: firebrick;
+  }
+  button.party,
+  button.return {
+    color: hotpink;
+  }
+}

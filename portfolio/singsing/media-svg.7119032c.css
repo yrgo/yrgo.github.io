@@ -1,0 +1,197 @@
+@media screen and (min-width: 1025px) {
+  .start-img {
+    width: 90%;
+  }
+
+  .container {
+    width: 50%;
+    padding: 3rem;
+    padding-top: 2rem;
+    margin-top: 4rem;
+  }
+
+  .star-container {
+    display: none;
+  }
+  .stars-desktop {
+    position: absolute;
+    display: flex;
+  }
+  .stars-left {
+    top: 5%;
+    left: 9%;
+    transform: scale(0.8);
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+  }
+
+  .stars-right {
+    top: 12%;
+    right: 16%;
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+  }
+
+  .bottle {
+    position: absolute;
+    transform: scale(1.3);
+    display: block;
+    opacity: 0;
+    transition: 0.8s ease-in;
+  }
+
+  .left-hand-bottle {
+    left: 18%;
+    bottom: 15%;
+    animation: left-bottle 1s infinite;
+  }
+
+  .right-hand-bottle {
+    left: 25%;
+    bottom: 10%;
+    animation: right-bottle 1s infinite;
+  }
+  .bubbles {
+    animation: bubbles 1s infinite;
+  }
+
+  .show-time {
+    opacity: 1;
+    animation: show-time 0.8s ease-in-out;
+  }
+
+  .show-time-left {
+    opacity: 1;
+    animation: show-time-left 0.8s ease-in-out;
+  }
+
+  .microphone-container {
+    display: block;
+  }
+
+  .microphone {
+    position: absolute;
+    overflow: visible;
+    width: 56px;
+    height: 131px;
+  }
+
+  .microphone-red {
+    z-index: 1000;
+    right: 32%;
+    bottom: 10%;
+    transform: scale(1.3);
+    display: block;
+    opacity: 0;
+    transition: 0.8s ease-in;
+  }
+
+  .mic-one {
+    left: 150px;
+    top: 250px;
+    transform: rotate(25deg);
+  }
+
+  .mic-two {
+    transform: scale(0.7) rotate(130deg);
+    animation: mic-two 880ms infinite;
+    top: 3rem;
+  }
+
+  .mic-three {
+    left: 70%;
+    top: 3rem;
+    transform: scale(0.7) rotate(-25deg);
+  }
+
+  .mic-four {
+    left: 12px;
+    top: 40%;
+    transform: scale(0.7) rotate(-90deg);
+  }
+
+  .mic-five {
+    top: 40%;
+    left: 60%;
+    transform: rotate(-45deg);
+    animation: mic-five 880ms infinite;
+  }
+
+  .mic-six {
+    top: 62%;
+    left: 40%;
+    transform: scale(0.7) rotate(120deg);
+  }
+
+  .mic-seven {
+    top: 70%;
+    transform: rotate(-10deg);
+    animation: note 880ms infinite;
+  }
+
+  .mic-eight {
+    top: 80%;
+    left: 70%;
+    transform: rotate(50deg);
+  }
+
+  .notes {
+    display: block;
+    position: absolute;
+    width: 70px;
+  }
+
+  .note-single {
+    top: 120px;
+    left: 55px;
+    transform: rotate(15deg);
+    animation: note 880ms infinite;
+  }
+
+  .note-double-1 {
+    left: 60px;
+    bottom: 120px;
+    transform: rotate(10deg);
+    animation: note-double-1 880ms infinite;
+  }
+  .note-double-2 {
+    top: 120px;
+    left: 44%;
+    animation: note-double-2 770ms infinite;
+  }
+
+  .program-card {
+    width: 50%;
+    justify-content: center;
+    margin: 3rem 0 1rem 20px;
+  }
+
+  .pic-container img {
+    animation: none;
+  }
+
+  .pic-container {
+    justify-content: flex-end;
+  }
+
+  .icons a {
+    margin: 0;
+    padding: 0;
+  }
+  .icons img {
+    transform: scale(1.5);
+    margin-right: 4rem;
+    transition: 0.2s ease;
+  }
+
+  .icons img:hover {
+    transform: rotate(10deg) scale(1.5);
+  }
+
+  /* .instagram {
+    margin-left: 1rem;
+    width: 80px;
+  } */
+}
+
+/*# sourceMappingURL=media-svg.7119032c.css.map */

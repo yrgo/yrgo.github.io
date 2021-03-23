@@ -1,0 +1,179 @@
+@keyframes note {
+  0% {
+    transform: rotate(15deg);
+    fill: var(--color-blue);
+  }
+  50% {
+    transform: rotate(15deg);
+    fill: var(--color-blue);
+  }
+  50.01% {
+    transform: rotate(0deg);
+    fill: var(--color-red);
+  }
+  100% {
+    transform: rotate(0deg);
+    fill: var(--color-red);
+  }
+}
+
+@keyframes note-double-1 {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  50.01% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
+@keyframes note-double-2 {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  50.01% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes mic-two {
+  0% {
+    transform: rotate(130deg);
+  }
+  50% {
+    transform: rotate(130deg);
+  }
+  50.01% {
+    transform: rotate(110deg);
+  }
+  100% {
+    transform: rotate(110deg);
+  }
+}
+
+@keyframes mic-five {
+  0% {
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+  50.01% {
+    transform: rotate(-35deg) translateX(45%);
+  }
+  100% {
+    transform: rotate(-35deg) translateX(45%);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-70%) translateX(-50%) scale(0.6);
+  }
+  50% {
+    transform: translateY(-90%) translateX(-50%) scale(0.6);
+  }
+}
+
+@keyframes show-time {
+  0% {
+    transform: translateY(500px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes show-time-left {
+  0% {
+    transform: translateY(500px) scale(0.8);
+  }
+  50% {
+    transform: translateY(0) scale(0.8);
+  }
+  75% {
+    transform: rotate(5deg) scale(0.8);
+  }
+  100% {
+    transform: rotate(0deg) scale(0.8);
+  }
+}
+
+@keyframes program-card {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  50.01% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+
+@keyframes right-bottle {
+  0% {
+    transform: rotate(0deg) scale(1.3);
+  }
+  50% {
+    transform: rotate(0deg) scale(1.3);
+  }
+  50.01% {
+    transform: rotate(-10deg) scale(1.3);
+  }
+  100% {
+    transform: rotate(-10deg) scale(1.3);
+  }
+}
+@keyframes bubbles {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  50.01% {
+    transform: rotate(-10deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-10deg);
+    opacity: 1;
+  }
+}
+@keyframes left-bottle {
+  0% {
+    transform: rotate(0deg) scale(1.3);
+  }
+  50% {
+    transform: rotate(0deg) scale(1.3);
+  }
+  50.01% {
+    transform: rotate(10deg) scale(1.3);
+  }
+  100% {
+    transform: rotate(10deg) scale(1.3);
+  }
+}
+
+/*# sourceMappingURL=keyframes.685037a8.css.map */

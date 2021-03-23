@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --color-red: #f95c56;
+  --color-blue: #0741ff;
+  --color-pink: #fad3d4;
+}
+
+body {
+  background-color: var(--color-blue);
+  font-family: 'AvantGardeMdITC', Helvetica, sans-serif;
+}
+
+.hero {
+  width: 100%;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.stars-desktop {
+  display: none;
+}
+
+.star-container {
+  margin-top: 1rem;
+  width: 70%;
+  background-image: url('stars-mobile.919f668f.svg');
+  min-height: 20vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
+
+.stars-load {
+  opacity: 1;
+}
+
+.container {
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.8s ease-in;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.start-img {
+  width: 100%;
+  opacity: 0;
+  transition: 0.8s ease-in;
+}
+.arrow-container {
+  width: 100%;
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-70%) scale(0.6);
+  animation: bounce 770ms infinite;
+}
+
+.bottle {
+  display: none;
+}
+.microphone-red {
+  display: none;
+}
+
+.welcome-letter {
+  background-color: var(--color-red);
+  width: 100%;
+  min-height: 80vh;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  width: 100%;
+  margin: 1rem;
+  margin-top: 2rem;
+  padding: 2.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-container button,
+form button {
+  background-color: var(--color-blue);
+  width: 150px;
+  border: none;
+  box-shadow: unset;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  padding: 10px 15px;
+  margin: 20px;
+  transition: 0.2s ease-in;
+}
+button:hover {
+  background-color: white;
+  color: var(--color-blue);
+  cursor: pointer;
+}
+.microphone-container {
+  display: none;
+}
+
+.show-time {
+  opacity: 1;
+  animation: show-time 1s ease-in-out;
+}
+
+.show-time-left {
+  opacity: 1;
+  animation: show-time-left 1s ease-in-out;
+}
+
+.form-container {
+  background-color: var(--color-pink);
+  color: var(--color-blue);
+  padding: 2rem;
+  display: none;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
+
+.form-container-visible {
+  display: flex;
+}
+
+.VIP {
+  display: none;
+  width: 90%;
+  margin: 2rem;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 90%;
+}
+form input {
+  border: none;
+  padding: 10px;
+  margin-top: 5px;
+}
+form button {
+  margin: 20px 30px;
+}
+
+.confirmation {
+  display: none;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
+
+.program {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+.notes {
+  display: none;
+}
+.program-text {
+  margin: 5rem 1rem 1rem;
+}
+
+.program-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.pic-container img {
+  width: 100%;
+  animation: program-card 880ms infinite;
+}
+
+.pic-container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-container {
+  background-color: var(--color-pink);
+  color: var(--color-blue);
+  padding-top: 1rem;
+}
+.menu {
+  margin-top: 2rem;
+  padding: 2.5rem 3rem;
+}
+
+footer {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
+  background-color: var(--color-blue);
+  padding: 3rem 2.2rem;
+}
+
+.social,
+.icons {
+  margin-top: 1rem;
+}
+
+.instagram {
+  width: 68px;
+  margin-left: 10px;
+}
+
+.icons img:hover {
+  transform: rotate(10deg);
+}
+
+/*# sourceMappingURL=global.cb1b1fa8.css.map */

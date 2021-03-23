@@ -1,0 +1,250 @@
+@media screen and (min-width: 800px) {
+  /* First section  */
+  .hero {
+    margin-bottom: 1rem;
+    width: 100%;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  /* Second section  */
+
+  .welcome-letter {
+    padding: 1rem;
+    justify-content: unset;
+    align-items: unset;
+    margin-top: 1rem;
+  }
+
+  .welcome-letter .text-container {
+    width: 70%;
+    padding: 4rem 5rem;
+    margin: 10px;
+    margin-top: unset;
+    display: unset;
+    flex-direction: unset;
+    justify-content: unset;
+  }
+
+  .welcome-letter .microphone-container {
+    width: 35%;
+    position: relative;
+  }
+
+  .text-container h1 {
+    font-size: 100px;
+    margin-bottom: 30px;
+  }
+
+  .text-container h2 {
+    font-size: 2.8rem;
+    margin-bottom: 70px;
+    line-height: 50px;
+  }
+
+  .text-container .text {
+    font-size: 28px;
+    letter-spacing: 0.7px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+
+  .text-container .buttons {
+    flex-direction: row;
+    align-items: unset;
+  }
+
+  .text-container .date {
+    font-size: 38px;
+    line-height: 60px;
+    margin-top: 3rem;
+  }
+  .text-container button {
+    width: unset;
+    background-color: var(--color-blue);
+    border: none;
+    box-shadow: unset;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    margin: 4rem 50px 0 0;
+    padding: 15px 20px;
+  }
+
+  .welcome-letter button:hover {
+    background-color: white;
+    color: var(--color-blue);
+    cursor: pointer;
+  }
+
+  /* Form  */
+
+  .form-container {
+    padding: 7rem;
+    align-items: flex-start;
+  }
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    font-size: 35px;
+  }
+
+  form div {
+    display: block;
+    margin: unset;
+    width: unset;
+  }
+
+  form input {
+    width: 70%;
+    margin-left: 10px;
+    margin-top: 0;
+  }
+
+  form button {
+    background-color: var(--color-blue);
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    padding: 15px 30px;
+    width: 50%;
+    justify-self: end;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  .confirmation {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+  }
+  .VIP {
+    margin: 0;
+    margin-bottom: 3rem;
+    width: 90%;
+  }
+
+  .VIP h3 {
+    font-size: 70px;
+  }
+
+  .VIP p {
+    font-size: 25px;
+    width: 55%;
+    margin-left: 3rem;
+    line-height: 33px;
+  }
+  /* Third container  */
+
+  .program {
+    width: 100%;
+    padding: 2rem;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: unset;
+    position: relative;
+  }
+
+  .program-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+  }
+
+  .program h2 {
+    text-align: left;
+    font-size: 80px;
+    letter-spacing: 2px;
+  }
+
+  .program li {
+    font-size: 30px;
+  }
+
+  /* Food  */
+
+  .menu {
+    padding: 6rem;
+    margin: 10px;
+  }
+
+  .menu div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu h3 {
+    font-size: 35px;
+    margin-bottom: 3rem;
+  }
+
+  .menu li {
+    font-size: 66px;
+    line-height: 70px;
+  }
+
+  .menu p {
+    font-size: 38px;
+    line-height: 37px;
+    width: 65%;
+    margin: 0 0 0 5rem;
+  }
+  /* Footer  */
+
+  .social {
+    margin-top: 2rem;
+  }
+
+  .icons {
+    margin-top: 3rem;
+  }
+
+  footer {
+    display: flex;
+    padding: 5rem 7rem;
+  }
+  footer div {
+    margin: 2rem;
+    margin-right: 3rem;
+  }
+  footer div h3 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  footer div a {
+    text-decoration: none;
+  }
+
+  footer a {
+    font-size: 1.2rem;
+    line-height: 26px;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .mic-two,
+  .mic-five,
+  .mic-seven,
+  .left-hand-bottle,
+  .right-hand-bottle,
+  .show-time,
+  .show-time-left,
+  .program-card img,
+  .arrow {
+    animation-name: dissolve;
+  }
+}
+
+/*# sourceMappingURL=media.ae35b86c.css.map */
